@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+.Post{
+    width: 400px;
+    margin:auto;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.PostHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.PostAuthor{
+    display: flex;
+    align-items: center;
+    gap: 15%;
+}
+.AuthorLabel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.threeDot{
+    margin-right: 15px;
+}
+.ImageContent{
+    width: 100%;
+}
+.Interaction{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.InteractionIcons{
+    gap: 3%;
+    display:flex;
+}
+i{
+    font-size: 30px;
+}
+
+.PostContent{
+    padding-left: 8px;
+    padding-bottom: 4px;
+    padding-right: 8px;
+
+}
+p{
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.horizontalPad{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.noPad{
+    padding: 0;
+    margin: 0;
+}
+button{
+    border: none;
+    background: none;
+    cursor:pointer;
+}
